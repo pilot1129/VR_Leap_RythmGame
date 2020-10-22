@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 2c8add1dbdc87a24abbd0ee209c7ca01
+timeCreated: 1527704639
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Neon 80s
+  fontNames:
+  - Neon 80s
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

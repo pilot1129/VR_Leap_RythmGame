@@ -1,0 +1,508 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A19AA5C3-6DC6-4E51-CF74-390B95ED44E6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectGenerator>VSTU</UnityProjectGenerator>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
+    <UnityVersion>5.6.6f2</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_6;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_6;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity18/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:/Program Files/Unity18/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>C:/Program Files/Unity18/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>C:/Program Files/Unity18/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>C:/Program Files/Unity18/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>C:/Program Files/Unity18/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>C:/Program Files/Unity18/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>C:/Program Files/Unity18/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="LeapCSharp.NET3.5">
+      <HintPath>Assets/LeapMotion/Core/Plugins/LeapCSharp.NET3.5.dll</HintPath>
+    </Reference>
+    <Reference Include="InteractionEngineUtility">
+      <HintPath>Assets/LeapMotion/Modules/InteractionEngine/Plugins/InteractionEngineUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity18/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Before_and_next.cs" />
+    <Compile Include="Assets\CalculationScore4_1.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Algorithms\SlidingMax.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Algorithms\SmoothedFloat.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Algorithms\SmoothedQuaternion.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Algorithms\SmoothedVector3.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Animation\CubicHermiteSpline\HermiteSpline.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Animation\CubicHermiteSpline\HermiteSpline2.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Animation\CubicHermiteSpline\HermiteSpline3.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Animation\Ease.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Animation\IValueProxy.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Animation\TransformTweenBehaviour.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Animation\Tween\Enums.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Animation\Tween\IInterpolator.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Animation\Tween\Internal\Interpolators\InterpolatorBases.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Animation\Tween\Internal\Interpolators\MaterialInterpolators.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Animation\Tween\Internal\Interpolators\TransformInterpolators.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Animation\Tween\Internal\Interpolators\ValueInterpolators.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Animation\Tween\Internal\TweenInstance.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Animation\Tween\Internal\TweenRunner.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Animation\Tween\Tween.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Attachments\AttachmentHand.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Attachments\AttachmentHandEnableDisable.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Attachments\AttachmentHands.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Attachments\AttachmentPointBehaviour.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Attachments\AttachmentPointFlags.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Attributes\AutoFindAttribute.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Attributes\CombinablePropertyAttribute.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Attributes\CurveBounds.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Attributes\Disable.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Attributes\DisableIf.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Attributes\EditTimeOnly.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Attributes\EnumFlags.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Attributes\ImplementsInterface.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Attributes\ImplementsTypeNameDropdownAttribute.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Attributes\Incrementable.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Attributes\MaxValue.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Attributes\MinMax.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Attributes\MinValue.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Attributes\OnEditorChange.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Attributes\UnitsAttribute.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\DataStructures\AssetFolder.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\DataStructures\DelayBuffer.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\DataStructures\DeltaBuffer.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\DataStructures\Deque.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\DataStructures\Either.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\DataStructures\Hash.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\DataStructures\Maybe.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\DataStructures\MinHeap.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\DataStructures\MultiTypedList.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\DataStructures\MultiTypedReference.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\DataStructures\Pool.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\DataStructures\Pose.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\DataStructures\ProduceConsumeBuffer.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\DataStructures\ReadonlyHashSet.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\DataStructures\ReadonlyList.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\DataStructures\RingBuffer.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\DataStructures\SerializableDictionary.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\DataStructures\SerializableHashSet.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\DataStructures\SerializableType.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\DataStructures\StreamingAsset.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\DataStructures\StreamingFolder.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\DataStructures\Type.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\DetectionUtilities\AbstractHoldDetector.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\DetectionUtilities\Detector.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\DetectionUtilities\DetectorLogicGate.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\DetectionUtilities\ExtendedFingerDetector.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\DetectionUtilities\FingerDirectionDetector.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\DetectionUtilities\PalmDirectionDetector.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\DetectionUtilities\PinchDetector.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\DetectionUtilities\ProximityDetector.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\HandPool.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\HandRepresentation.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Hands\CapsuleHand.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Hands\DebugHand.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Hands\FingerModel.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Hands\HandDrop.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Hands\HandEnableDisable.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Hands\HandModel.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Hands\HandModelBase.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Hands\HandTransitionBehavior.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Hands\RigidFinger.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Hands\RigidHand.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Hands\SkeletalFinger.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Hands\SkeletalHand.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Hands\TestHandFactory.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\LeapDeviceInfo.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\LeapHandController.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\LeapImageRetriever.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\LeapPreferences.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\LeapProvider.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\LeapServiceProvider.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Query\Concat.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Query\DirectQueryExtensions.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Query\DirectQueryOps.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Query\ListAndArrayExtensions.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Query\OfType.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Query\QueryWrapper.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Query\Repeat.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Query\Select.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Query\SelectMany.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Query\SkipCount.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Query\SkipWhile.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Query\TakeCount.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Query\TakeWhile.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Query\Values.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Query\Where.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Query\WithPrevious.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Query\Zip.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\RiggedFinger.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\RiggedHand.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Space\Definitions\LeapCylindricalSpace.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Space\Definitions\LeapRadialSpace.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Space\Definitions\LeapSphericalSpace.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Space\ISpaceComponent.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Space\ITransformer.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Space\LeapSpace.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Space\LeapSpaceAnchor.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Testing\LeapTestBase.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Testing\StationaryTestLeapProvider.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Utils\AnimationCurveUtil.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Utils\AssertHelper.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Utils\BitConverterNonAlloc.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Utils\Comment.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Utils\ConnectionMonitor.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Utils\DisconnectionNotice.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Utils\EditorResources.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Utils\EnableDepthBuffer.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Utils\Enum.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Utils\EnumEventTable.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Utils\ExecutionOrder.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Utils\FpsLabel.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Utils\FrameRateControls.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Utils\GuiRectUtil.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Utils\HandUtils.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Utils\InternalUtility.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Utils\KeyEnableBehaviors.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Utils\KeyEnableGameObjects.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Utils\LeapUnityExtensions.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Utils\ProfilerSample.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Utils\ProgressBar.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Utils\RuntimeColliderGizmos.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Utils\RuntimeGizmoManager.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Utils\RuntimeGizmoToggle.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Utils\SingleLayer.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Utils\Swizzle.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Utils\TransformUtil.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Utils\Utils.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\Utils\XRSupportUtil.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\VR\EyeType.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\VR\LeapVRCameraControl.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\VR\LeapVRTemporalWarping.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\VR\TemporalWarpingStatus.cs" />
+    <Compile Include="Assets\LeapMotion\Core\Scripts\VR\VRHeightOffset.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Examples\Scripts\ExampleArrayController.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\EditTimeApis\LeapGraphicEditorApi.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\EditTimeApis\LeapGraphicGroupEditorApi.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\EditTimeApis\LeapGraphicRendererEditorApi.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\EditTimeApis\LeapMeshGraphicEditorApi.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\Features\BlendShape\LeapBlendShapeData.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\Features\BlendShape\LeapBlendShapeFeature.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\Features\CustomChannel\Channels\CustomColorChannelData.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\Features\CustomChannel\Channels\CustomColorChannelFeature.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\Features\CustomChannel\Channels\CustomFloatChannelData.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\Features\CustomChannel\Channels\CustomFloatChannelFeature.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\Features\CustomChannel\Channels\CustomMatrixChannelData.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\Features\CustomChannel\Channels\CustomMatrixChannelFeature.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\Features\CustomChannel\Channels\CustomVectorChannelData.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\Features\CustomChannel\Channels\CustomVectorChannelFeature.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\Features\CustomChannel\CustomChannelDataBase.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\Features\CustomChannel\CustomChannelFeatureBase.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\Features\Sprite\LeapSpriteData.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\Features\Sprite\LeapSpriteFeature.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\Features\Texture\LeapTextureData.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\Features\Texture\LeapTextureFeature.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\Features\Tint\LeapRuntimeTintData.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\Features\Tint\LeapRuntimeTintFeature.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\Graphics\LeapMeshGraphic.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\Graphics\LeapTextGraphic.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\Graphics\ProceduralMeshGraphics\Abstract\LeapSlicedGraphic.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\Graphics\ProceduralMeshGraphics\LeapBoxGraphic.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\Graphics\ProceduralMeshGraphics\LeapPanelGraphic.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\Graphics\ProceduralMeshGraphics\LeapPanelOutlineGraphic.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\Graphics\ProceduralMeshGraphics\LeapSpriteGraphic.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\ISupportsAddRemove.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\ISupportsFeature.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\LeapGraphic.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\LeapGraphicFeature.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\LeapGraphicGroup.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\LeapGraphicRenderer.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\LeapRenderingMethod.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\RenderingMethods\AssetData\RendererMeshData.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\RenderingMethods\AssetData\RendererTextureData.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\RenderingMethods\LeapBakedRenderer.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\RenderingMethods\LeapDynamicRenderer.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\RenderingMethods\LeapMesherBase.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\RenderingMethods\LeapTextRenderer.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\SpaceProperties.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\SupportInfo.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\Utility\AtlasBuilder.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\Utility\JaggedArray.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\Utility\LeapGraphicTagAttribute.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\Utility\MaterialUtil.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\Utility\MeshCache.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\Utility\MeshUtil.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\Utility\SpriteUtil.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\Utility\TextWrapper.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\Hands\Examples\Scripts\CenterTransformOnCam.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\Hands\Examples\Scripts\CycleHandPairs.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\Hands\Scripts\LeapHandsAutoRig.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\Hands\Scripts\MinimalHand.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\Hands\Scripts\PolyFinger.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\Hands\Scripts\PolyHand.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Examples\3. Interaction Callbacks\Scripts\TransformHandle.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Examples\3. Interaction Callbacks\Scripts\TransformRotationHandle.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Examples\3. Interaction Callbacks\Scripts\TransformTool.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Examples\3. Interaction Callbacks\Scripts\TransformTranslationHandle.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Examples\5. Anchors\SimpleAnchorFeedback.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Examples\6. Dynamic UI\Scripts\SimpleMatchAnchorScaleAndState.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Examples\6. Dynamic UI\Scripts\WorkstationBehaviourExample.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Examples\6. Dynamic UI\Tests\Scripts\RenderWireSphere.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Examples\6. Dynamic UI\Tests\Scripts\WorkstationPoseTest.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Examples\7. Moving Reference Frames\Scripts\AngularSpeedTextBehaviour.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Examples\7. Moving Reference Frames\Scripts\AutopilotSystem.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Examples\7. Moving Reference Frames\Scripts\LinearReferenceSpawner.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Examples\7. Moving Reference Frames\Scripts\LinearSpeedTextBehaviour.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Examples\7. Moving Reference Frames\Scripts\Spaceship.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Examples\8. Swap Grasp\Scripts\SwapGraspExample.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Examples\Common Example Assets\Scripts\SimpleFacingCameraCallbacks.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Examples\Common Example Assets\Scripts\SimpleInteractionEmission.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Examples\Common Example Assets\Scripts\SimpleInteractionGlow.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Examples\Common Example Assets\Scripts\SimpleRendererUtil.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Examples\Common Example Assets\Scripts\SimpleScaleUtil.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Examples\Common Example Assets\Scripts\SimpleTransformUtil.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\InteractionBehaviour.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\InteractionController.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\InteractionHand.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\InteractionManager.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\InteractionXRController.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Internal\ContactBone.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Internal\ContactBoneParent.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Internal\DefaultXRNodeTrackingProvider.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Internal\HeuristicGrabClassifier.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Internal\IXRControllerTrackingProvider.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Internal\InteractionPreferences.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Internal\Interface\IGraspedMovementHandler.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Internal\Interface\IGraspedPoseHandler.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Internal\Interface\IInteractionBehaviour.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Internal\Interface\IInternalInteractionController.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Internal\Interface\IInternalInteractionManager.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Internal\Interface\IThrowHandler.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Internal\KabschGraspedPose.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Internal\KinematicGraspedMovement.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Internal\NonKinematicGraspedMovement.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Internal\RigidbodyWarper.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Internal\SlidingWindowThrow.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\UI\Anchors\Anchor.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\UI\Anchors\AnchorGroup.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\UI\Anchors\AnchorableBehaviour.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\UI\Anchors\Tests\AnchorScoreTest.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\UI\InteractionButton.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\UI\InteractionSlider.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\UI\InteractionToggle.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Utility\ActivityManager.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Utility\Extensions.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Utility\GraspedMovementEvent.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Utility\IgnoreCollisionsInChildren.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Utility\InteractionControllerSwitcher.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Utility\KabschSolver.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Utility\PhysicsCallbacks.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\Composition\OVRCameraComposition.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\Composition\OVRComposition.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\Composition\OVRCompositionUtil.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\Composition\OVRDirectComposition.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\Composition\OVRExternalComposition.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\Composition\OVRSandwichComposition.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\OVRBoundary.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\OVRCameraRig.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\OVRCommon.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\OVRDebugHeadController.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\OVRDisplay.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\OVRHaptics.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\OVRHapticsClip.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\OVRInput.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\OVRLayerAttribute.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\OVRLint.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\OVRManager.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\OVRMixedReality.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\OVROnCompleteListener.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\OVROverlay.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\OVRPlatformMenu.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\OVRPlugin.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\OVRProfile.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\OVRTracker.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRChromaticAberration.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRCubemapCapture.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRDebugInfo.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRGazePointer.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRGearVrControllerTest.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRGrabbable.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRGrabber.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRGridCube.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRInputModule.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRMixedRealityCaptureSettings.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRModeParms.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRMonoscopic.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRPhysicsRaycaster.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRPlayerController.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRPointerEventData.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRProfiler.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRProgressIndicator.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRRaycaster.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRRecord.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRResetOrientation.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRSceneSampleController.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRScreenFade.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRTrackedRemote.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRWaitCursor.cs" />
+    <Compile Include="Assets\SelectMusic.cs" />
+    <Compile Include="Assets\Select_Canvas_UI.cs" />
+    <Compile Include="Assets\Select_Canvas_UI_Action.cs" />
+    <Compile Include="Assets\Set_Music_Info_Table.cs" />
+    <Compile Include="Assets\Work_Scene\Scripts\ClickSound.cs" />
+    <Compile Include="Assets\Work_Scene\Scripts\CountNumber.cs" />
+    <Compile Include="Assets\Work_Scene\Scripts\Demo.cs" />
+    <Compile Include="Assets\Work_Scene\Scripts\EndScript.cs" />
+    <Compile Include="Assets\Work_Scene\Scripts\HealthSystem\Healthbar.cs" />
+    <Compile Include="Assets\Work_Scene\Scripts\ItemSelection.cs" />
+    <Compile Include="Assets\Work_Scene\Scripts\MaxComboPanel.cs" />
+    <Compile Include="Assets\Work_Scene\Scripts\MusicInfo.cs" />
+    <Compile Include="Assets\Work_Scene\Scripts\PauseMenu.cs" />
+    <Compile Include="Assets\Work_Scene\Scripts\Scene3\AccurancyPanel.cs" />
+    <Compile Include="Assets\Work_Scene\Scripts\Scene3\BadPanel.cs" />
+    <Compile Include="Assets\Work_Scene\Scripts\Scene3\CalculationScore.cs" />
+    <Compile Include="Assets\Work_Scene\Scripts\Scene3\ComboPanel.cs" />
+    <Compile Include="Assets\Work_Scene\Scripts\Scene3\ControlVolume.cs" />
+    <Compile Include="Assets\Work_Scene\Scripts\Scene3\GoodPanel.cs" />
+    <Compile Include="Assets\Work_Scene\Scripts\Scene3\GreatPanel.cs" />
+    <Compile Include="Assets\Work_Scene\Scripts\Scene3\HelthBar.cs" />
+    <Compile Include="Assets\Work_Scene\Scripts\Scene3\HighScorePanel.cs" />
+    <Compile Include="Assets\Work_Scene\Scripts\Scene3\LevelChanger.cs" />
+    <Compile Include="Assets\Work_Scene\Scripts\Scene3\LevelPane.cs" />
+    <Compile Include="Assets\Work_Scene\Scripts\Scene3\MissPanel.cs" />
+    <Compile Include="Assets\Work_Scene\Scripts\Scene3\MusicArtistPanel.cs" />
+    <Compile Include="Assets\Work_Scene\Scripts\Scene3\MusicNamePanel.cs" />
+    <Compile Include="Assets\Work_Scene\Scripts\Scene3\Note.cs" />
+    <Compile Include="Assets\Work_Scene\Scripts\Scene3\NoteImage.cs" />
+    <Compile Include="Assets\Work_Scene\Scripts\Scene3\NoteInfo.cs" />
+    <Compile Include="Assets\Work_Scene\Scripts\Scene3\NoteSound.cs" />
+    <Compile Include="Assets\Work_Scene\Scripts\Scene3\NoteSpawn.cs" />
+    <Compile Include="Assets\Work_Scene\Scripts\Scene3\NoteThreshold.cs" />
+    <Compile Include="Assets\Work_Scene\Scripts\Scene3\Note_Judge.cs" />
+    <Compile Include="Assets\Work_Scene\Scripts\Scene3\ObjectPool.cs" />
+    <Compile Include="Assets\Work_Scene\Scripts\Scene3\OptionPane.cs" />
+    <Compile Include="Assets\Work_Scene\Scripts\Scene3\PerfectPanel.cs" />
+    <Compile Include="Assets\Work_Scene\Scripts\Scene3\PlayData.cs" />
+    <Compile Include="Assets\Work_Scene\Scripts\Scene3\PooledObject.cs" />
+    <Compile Include="Assets\Work_Scene\Scripts\Scene3\ScorePanel.cs" />
+    <Compile Include="Assets\Work_Scene\Scripts\Scene3\SetInGameData.cs" />
+    <Compile Include="Assets\Work_Scene\Scripts\Scene3\Singleton.cs" />
+    <Compile Include="Assets\Work_Scene\Scripts\Scene3\UI_Pane.cs" />
+    <Compile Include="Assets\Work_Scene\Scripts\SetSelectSceneData.cs" />
+    <Compile Include="Assets\Work_Scene\Scripts\SoundManager.cs" />
+    <Compile Include="Assets\Work_Scene\Scripts\SoundSetting.cs" />
+    <Compile Include="Assets\Work_Scene\Scripts\UIObject.cs" />
+    <Compile Include="Assets\Work_Scene\Scripts\Visualizer\AudioPeer.cs" />
+    <Compile Include="Assets\Work_Scene\Scripts\Visualizer\Instantiate512cubes.cs" />
+    <Compile Include="Assets\Work_Scene\Scripts\Visualizer\ParamCube.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\LeapMotion\Core\Dependencies.txt" />
+    <None Include="Assets\LeapMotion\Core\README_BEFORE_UPDATING.txt" />
+    <None Include="Assets\LeapMotion\Core\Resources\LeapCG.cginc" />
+    <None Include="Assets\LeapMotion\Core\Resources\PassthroughBackground.shader" />
+    <None Include="Assets\LeapMotion\Core\Resources\PassthroughForeground.shader" />
+    <None Include="Assets\LeapMotion\Core\Resources\RuntimeGizmos.shader" />
+    <None Include="Assets\LeapMotion\Core\Resources\ThresholdOverlay.shader" />
+    <None Include="Assets\LeapMotion\Core\Resources\VertexOffsetShader.shader" />
+    <None Include="Assets\LeapMotion\Core\Version.txt" />
+    <None Include="Assets\LeapMotion\Core\readme.txt" />
+    <None Include="Assets\LeapMotion\Modules\GraphicRenderer\Examples\Shaders\Baked_SurfaceExample1.shader" />
+    <None Include="Assets\LeapMotion\Modules\GraphicRenderer\Examples\Shaders\Dynamic_SurfaceExample1.shader" />
+    <None Include="Assets\LeapMotion\Modules\GraphicRenderer\Resources\BakedRenderer.cginc" />
+    <None Include="Assets\LeapMotion\Modules\GraphicRenderer\Resources\CylindricalSpace.cginc" />
+    <None Include="Assets\LeapMotion\Modules\GraphicRenderer\Resources\DynamicRenderer.cginc" />
+    <None Include="Assets\LeapMotion\Modules\GraphicRenderer\Resources\GraphicRenderer.cginc" />
+    <None Include="Assets\LeapMotion\Modules\GraphicRenderer\Resources\InternalPackShader.shader" />
+    <None Include="Assets\LeapMotion\Modules\GraphicRenderer\Resources\SphericalSpace.cginc" />
+    <None Include="Assets\LeapMotion\Modules\GraphicRenderer\Shaders\BakedSurface.shader" />
+    <None Include="Assets\LeapMotion\Modules\GraphicRenderer\Shaders\BakedUnlit.shader" />
+    <None Include="Assets\LeapMotion\Modules\GraphicRenderer\Shaders\DynamicSurface.shader" />
+    <None Include="Assets\LeapMotion\Modules\GraphicRenderer\Shaders\DynamicSurfaceTransparent.shader" />
+    <None Include="Assets\LeapMotion\Modules\GraphicRenderer\Shaders\DynamicText.shader" />
+    <None Include="Assets\LeapMotion\Modules\GraphicRenderer\Shaders\DynamicUnlit.shader" />
+    <None Include="Assets\LeapMotion\Modules\GraphicRenderer\Shaders\DynamicUnlitTransparent.shader" />
+    <None Include="Assets\Oculus\VR\Editor\AndroidManifest.OVRSubmission.xml" />
+    <None Include="Assets\Oculus\VR\Plugins\placeholder.txt" />
+    <None Include="Assets\Oculus\VR\Resources\Cubemap Blit.shader" />
+    <None Include="Assets\Oculus\VR\Resources\OVRMRCameraFrame.shader" />
+    <None Include="Assets\Oculus\VR\Resources\OVRMRCameraFrameLit.shader" />
+    <None Include="Assets\Oculus\VR\Resources\OVRMRChromaKey.cginc" />
+    <None Include="Assets\Oculus\VR\Resources\OVRMRClipPlane.shader" />
+    <None Include="Assets\Oculus\VR\Resources\OVRMRUnlit.shader" />
+    <None Include="Assets\Oculus\VR\Resources\OVRMRUnlitTransparent.shader" />
+    <None Include="Assets\Oculus\VR\Resources\Texture2D Blit.shader" />
+    <None Include="Assets\Oculus\VR\Resources\Underlay Impostor.shader" />
+    <None Include="Assets\Oculus\VR\Resources\Underlay Transparent Occluder.shader" />
+    <None Include="Assets\Oculus\VR\Resources\Unlit Transparent Color.shader" />
+    <None Include="Assets\Oculus\VR\Shaders\OVRColorRampAlpha.shader" />
+    <None Include="Assets\Oculus\VR\Shaders\Unlit Crosshair.shader" />
+    <None Include="Assets\Resources\Fade.txt" />
+    <None Include="Assets\Resources\music01.txt" />
+    <None Include="Assets\Resources\music02.txt" />
+    <None Include="Assets\Resources\music03.txt" />
+    <None Include="Assets\Work_Scene\Resources\noteinfo_txt\Fade.txt" />
+    <None Include="Assets\Work_Scene\Resources\noteinfo_txt\My Heart.txt" />
+    <None Include="Assets\Work_Scene\Resources\noteinfo_txt\Time Leap.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>

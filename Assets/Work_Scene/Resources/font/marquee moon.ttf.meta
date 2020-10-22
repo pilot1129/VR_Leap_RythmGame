@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 6ac6856c79067c441b1c4a4ccc368e63
+timeCreated: 1528825093
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Marquee Moon
+  fontNames:
+  - Marquee Moon
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
