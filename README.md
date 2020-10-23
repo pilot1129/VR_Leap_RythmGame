@@ -6,7 +6,7 @@ VR + Leapmotion Game
 
 Software Requirements
 -------------
-up to Visual Studio 2012 
+more than Visual Studio 2012 
 
 
 Release Notes
